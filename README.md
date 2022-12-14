@@ -5,9 +5,7 @@ EPFL - Digitalization &amp; sustainable logistics
 
 # Report
 
-## Mobility in Switzerland
-
-*Expliquer la situation en Suisse, les problèmes liés (pollution, congestion, accidents), la tendance des employés à aller en voiture au travail, …*
+## Introduction: Mobility in Switzerland
 
 This report describes a shuttle solution that a company could set up to pick up and bring back employees to their homes in order to reduce emissions from commuters. But first, here is a description of Switzerland's transport and commuting situation.
 
