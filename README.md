@@ -9,4 +9,4 @@ The results show that that there is no single best scenario that can satisfy all
 
 Finally, different extensions to this problem are presented, which could be interesting in developing further this project.
 
-Link to the report: ...
+Link to the report: https://snapdragon-leotard-088.notion.site/Report-0bf68eeaf4c240009154e7ba15c123f6 
