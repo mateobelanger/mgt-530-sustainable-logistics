@@ -58,6 +58,62 @@ Once the travel time and distance matrices are generated, the final step is to a
 
 ## Extensions
 
+The VRP problem can have a few extensions: 
+
+**1) Objective function** 
+
+First, the model can minimizing CO2 emissions in the objective function:
+
+$$
+Z (emissions)= min\sum_{(i,j,k) \in V \times V \times K}p_{ij}x_{ijk}
+$$
+
+Once the optimal solution is found, the impact on distance, travelling time, and costs can be assessed.
+
+Then, the objective function can be changed to one that minimizes the costs:
+
+$$
+Z (costs) = min\sum_{(i,j,k) \in V \times V \times K}c_{ij}x_{ijk}
+$$
+
+Once again it is assessed how the different factors (emissions, distance, time) vary in comparison to the first objective function.
+
+**2) Number of vehicles** 
+
+The model starts with the condition that there is only 1 shuttle (K = 1), which has to get all the employees, and the above functions are minimized. Then, the condition is set to K = 2, 3, and so forth up to K = 10. Each time the objective functions are minimized. Finally, one can analyze the optimal number of shuttles.
+
+**3) Nearby employees commute with soft transportation (foot, bike, scooter, skateboard, roller, etc.)**
+
+If an employee lives close to the office, they will not be considered for the model. The initial condition is that only people living more than 2 km far away from the office are considered for the model.
+
+$$
+if \ d_{i0} > 2 :  append\ i \ to \ V
+$$
+
+**4) People close to a train station take the train**
+
+If an employee lives close to a train station, they will take the train to Vevey, and thus will not be considered for the model. Another initial condition is set that only considers people living more than 1 km away from a train station.
+
+$$
+if \ d_{it} > 1 :  append\ i \ to \ V, \ t \in (Lausanne, Montreux, Cully, ...)
+$$
+
+**5) Employees start/finish work at different times**
+
+Three different employee classes are considered with the help of a distribution:
+
+1. Starting at 7h and finishing at 16h (20%)
+2. Starting at 8h and finishing at 17h (60%)
+3. Starting at 9h and finishing at 18h (20%)
+
+Accordingly, there will not only be one set of employees (V), but three different ones (V1, V2, and V3).
+
+**6) Carsharing**
+
+Instead of shuttles, some employees could take their own car and pick up their colleagues in the morning, and drop them off in the evening. Then, the center point 0 is no longer the company, but the points are the locations of the n people sharing their cars. 
+
+
+
 ### List of existing softwares for routes optimizations: 
 
 
