@@ -36,7 +36,7 @@ Once the random locations of the employees are determined, the next step consist
 1. The first is the simplest one, consisting of the euclidian distance between two locations.
 2. The second is more complex but also more accurate. It consists of using the Google Maps API to enter two locations, and get the distance or time of going from one location to the other (i) by car, (ii) using public transportation, and (iii) by bike or foot. This one will be considered for this project, as it gives more precise results.
 
-Once the travel time and distance matrices are generated, the final step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while minimizing total travel time. Then, the resulting costs can be computed, given an average price of 70 ct/km for the shuttles, as well as the CO2 emissions, given an average emission rate of 100g/km. At the end, each employee must be assigned a shuttle (as presented in Figure 3 below).
+Once the travel time and distance matrices are generated, the final step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while minimizing total travel time. Then, the resulting costs can be computed, given an average price of 70 ct/km for the shuttles [6], as well as the CO2 emissions, given an average emission rate of 105g/km per passenger [7]. At the end, each employee must be assigned a shuttle (as presented in Figure 3 below).
 
 <figure>
   <figcaption> Figure 3: VRP illustration (source Google OR-Tools) </figcaption>
