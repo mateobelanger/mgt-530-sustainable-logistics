@@ -1,4 +1,4 @@
-# mgt-530-sustainable-logistics
+# 🍫 Nestlé’s Vehicle Routing Problem
 EPFL - Digitalization &amp; Sustainable Logistics
 
 ### Authors: Mathieu Bélanger, Yanis Cuche, Louis Delessert, Mia Frey, Sybille Roemer, Nicolas Wille
