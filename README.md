@@ -16,7 +16,10 @@ All types of transportation account for one-fifth of global CO2 emissions. Of th
 
 It should be noted that the efficiency of cars is increasing year after year. A car today emits on average 120gCO2 per kilometre driven compared to 170gCO2/km in 2001. In Switzerland it is 135gCO2/km, thus it is one of the highest in the world (cf. Figure below) [2]. Although the reduction is ecologically beneficial, the average car occupancy rate in Switzerland is 1.6 persons per car in general but 1.1 for commuters [3]. The latter figure shows the individualism of today's society despite the high density of public transportation in Switzerland. The share of public transportation in Switzerland has been a bit over 20% since 2006 but has just dropped to 15.6% by 2020 due to Covid-19 [4].
 
-Include here figure 2 about carbon intensity of passengers
+<figure>
+  <figcaption> Figure 2: Average carbon intensity of new passenger vehicles </figcaption>
+  <img src="assets/carbon-new-passenger-vehicles.png" width="400">
+</figure>
 
 In 2020, 8 out of 10 people were considered commuters in Switzerland. 71% of these individuals worked outside their home municipality, 12% more than in 1990. Moreover, 52% of these people used their car for their daily commute and 27% used public transportation (15% - train, 12% - other road transport) [5].
 
