@@ -39,7 +39,7 @@ Once the random locations of the employees are determined, the next step consist
 Once the travel time and distance matrices are generated, the final step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while minimizing total travel time. Then, the resulting costs can be computed, given an average price of 70 ct/km for the shuttles, as well as the CO2 emissions, given an average emission rate of 100g/km. At the end, each employee must be assigned a shuttle (as presented in Figure 3 below).
 
 <figure>
-  <figcaption> Figure 3: VRP illustration (source Google OR-Tools </figcaption>
+  <figcaption> Figure 3: VRP illustration (source Google OR-Tools) </figcaption>
   <img src="assets/Untitled.png" width="400">
 </figure>
 
