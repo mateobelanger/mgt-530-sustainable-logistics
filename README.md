@@ -7,6 +7,15 @@ Insert here table of contents
 
 ## Introduction
 
+All types of transportation account for one-fifth of global CO2 emissions. Of these, 45% come from passenger road transport, which includes commuters [1]. A breakdown of the CO2 emissions from transport can be found in the graphic below [1].
+
+Include here figure 1 about global emissions
+
+It should be noted that the efficiency of cars is increasing year after year. A car today emits on average 120gCO2 per kilometre driven compared to 170gCO2/km in 2001. In Switzerland it is 135gCO2/km, thus it is one of the highest in the world (cf. Figure below) [2]. Although the reduction is ecologically beneficial, the average car occupancy rate in Switzerland is 1.6 persons per car in general but 1.1 for commuters [3]. The latter figure shows the individualism of today's society despite the high density of public transportation in Switzerland. The share of public transportation in Switzerland has been a bit over 20% since 2006 but has just dropped to 15.6% by 2020 due to Covid-19 [4].
+
+Include here figure 2 about carbon intensity of passengers
+
+In 2020, 8 out of 10 people were considered commuters in Switzerland. 71% of these individuals worked outside their home municipality, 12% more than in 1990. Moreover, 52% of these people used their car for their daily commute and 27% used public transportation (15% - train, 12% - other road transport) [5].
 
 ## Description of the problem
 
@@ -36,5 +45,15 @@ Once the cost matrices are generated, the second step is to apply the Vehicle Ro
 ## Extensions
 
 
-## Sources
+## References
 
+
+[1]      ‘Cars, planes, trains: where do CO2 emissions from transport come from?’, *Our World in Data*. https://ourworldindata.org/co2-emissions-from-transport (accessed Nov. 27, 2022).
+
+[2]      H. Ritchie, M. Roser, and P. Rosado, ‘Energy’, *Our World Data*, Oct. 2022, Accessed: Nov. 27, 2022. [Online]. Available: https://ourworldindata.org/transport
+
+[3]      ‘Utilisation de la voiture comme mode de transport individuel: captivité modale, dépendance et alternatives.’ https://litra.ch/fr/news/utilisation-de-la-voiture-comme-mode-de-transport-individuel-captivite-modale-dependance-et-alternatives/ (accessed Nov. 28, 2022).
+
+[4]      O. fédéral de la statistique, ‘Transports publics’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/querschnittsthemen/oeffentlicher-verkehr.html (accessed Nov. 28, 2022).
+
+[5]      O. fédéral de la statistique, ‘Pendularité’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/personenverkehr/pendlermobilitaet.html (accessed Nov. 28, 2022).
