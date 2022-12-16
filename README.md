@@ -70,16 +70,16 @@ Once the travel time and distance matrices are generated, the final step is to a
 ## References
 
 
-[1]      ‘Cars, planes, trains: where do CO2 emissions from transport come from?’, *Our World in Data*. https://ourworldindata.org/co2-emissions-from-transport (accessed Nov. 27, 2022).
+[1] ‘Cars, planes, trains: where do CO2 emissions from transport come from?’, *Our World in Data*. https://ourworldindata.org/co2-emissions-from-transport (accessed Nov. 27, 2022).
 
-[2]      H. Ritchie, M. Roser, and P. Rosado, ‘Energy’, *Our World Data*, Oct. 2022, Accessed: Nov. 27, 2022. [Online]. Available: https://ourworldindata.org/transport
+[2] H. Ritchie, M. Roser, and P. Rosado, ‘Energy’, *Our World Data*, Oct. 2022, Accessed: Nov. 27, 2022. [Online]. Available: https://ourworldindata.org/transport
 
-[3]      ‘Utilisation de la voiture comme mode de transport individuel: captivité modale, dépendance et alternatives.’ https://litra.ch/fr/news/utilisation-de-la-voiture-comme-mode-de-transport-individuel-captivite-modale-dependance-et-alternatives/ (accessed Nov. 28, 2022).
+[3] ‘Utilisation de la voiture comme mode de transport individuel: captivité modale, dépendance et alternatives.’ https://litra.ch/fr/news/utilisation-de-la-voiture-comme-mode-de-transport-individuel-captivite-modale-dependance-et-alternatives/ (accessed Nov. 28, 2022).
 
-[4]      O. fédéral de la statistique, ‘Transports publics’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/querschnittsthemen/oeffentlicher-verkehr.html (accessed Nov. 28, 2022).
+[4] O. fédéral de la statistique, ‘Transports publics’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/querschnittsthemen/oeffentlicher-verkehr.html (accessed Nov. 28, 2022).
 
-[5]      O. fédéral de la statistique, ‘Pendularité’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/personenverkehr/pendlermobilitaet.html (accessed Nov. 28, 2022).
+[5] O. fédéral de la statistique, ‘Pendularité’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/personenverkehr/pendlermobilitaet.html (accessed Nov. 28, 2022).
 
-[6]      TCS, ‘Frais kilométriques’ https://www.tcs.ch/mam/Digital-Media/PDF/Booklets/frais-kilometriques.pdf (accessed Dec. 16, 2022)
+[6] TCS, ‘Frais kilométriques’ https://www.tcs.ch/mam/Digital-Media/PDF/Booklets/frais-kilometriques.pdf (accessed Dec. 16, 2022)
 
-[7]      Our Wolrd in Data, 'Which form of transport has the smallest carbon footprint?' https://ourworldindata.org/travel-carbon-footprint (accessed Dec. 16, 2022)
+[7] Our Wolrd in Data, 'Which form of transport has the smallest carbon footprint?' https://ourworldindata.org/travel-carbon-footprint (accessed Dec. 16, 2022)
