@@ -31,9 +31,17 @@ The company is based in Vevey and has N employees who travel by car every day. F
 
 The first step consists of getting the data. To start, one should generate randomly the location of some employees around a given company. Two steps are required here: First, the location density of people living around this company needs to be gathered. Then, using this density, it is possible to generate employees around the company in a random manner. 
 
-Once the random locations of the employees are determined, the next step consists of estimating the cost matrix of going from the location of one employee to another (including location 0 of the company). Here, there are two different costs that can be computed: The first is the simplest one, consisting of the euclidian distance between two locations. The second is more complex but also more accurate. It consists of using the Google Maps API to enter two locations, and get the distance or time of going from one location to the other (i) by car, (ii) using public transportation, and (iii) by bike or foot. 
+Once the random locations of the employees are determined, the next step consists of getting the travel time matrix and the distance matrix, including all the employees and also the company. For those matrices, there are 2 different ways to compute them:
 
-Once the cost matrices are generated, the second step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while limiting overall costs. The problem aims to minimise the total costs and then the CO2 emissions. At the end, each employee must be assigned a shuttle (as presented in the Figure below).
+1. The first is the simplest one, consisting of the euclidian distance between two locations.
+2. The second is more complex but also more accurate. It consists of using the Google Maps API to enter two locations, and get the distance or time of going from one location to the other (i) by car, (ii) using public transportation, and (iii) by bike or foot. This one will be considered for this project, as it gives more precise results.
+
+Once the travel time and distance matrices are generated, the final step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while minimizing total travel time. Then, the resulting costs can be computed, given an average price of 70 ct/km for the shuttles, as well as the CO2 emissions, given an average emission rate of 100g/km. At the end, each employee must be assigned a shuttle (as presented in Figure 3 below).
+
+<figure>
+  <figcaption> Figure 3: VRP illustration (source Google OR-Tools </figcaption>
+  <img src="assets/Untitled.png" width="400">
+</figure>
 
 
 ## General VRP Mathematical Formulation
