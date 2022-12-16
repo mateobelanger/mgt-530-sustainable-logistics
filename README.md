@@ -58,8 +58,43 @@ Once the travel time and distance matrices are generated, the final step is to a
 
 ## Extensions
 
-### List of existing softwares for routes optimizations: 
+The VRP problem can have a few extensions: 
 
+**1) Nearby employees commute with soft transportation (foot, bike, scooter, skateboard, roller, etc.)**
+
+If an employee lives close to the office, they will not be considered for the model. The initial condition is that only people living more than 2 km far away from the office are considered for the model.
+
+$$
+if \ d_{i0} > 2 :  append\ i \ to \ V
+$$
+
+**2) People close to a train station take the train**
+
+If an employee lives close to a train station, they will take the train to Vevey, and thus will not be considered for the model. Another initial condition is set that only considers people living more than 1 km away from a train station.
+
+$$
+if \ d_{it} > 1 :  append\ i \ to \ V, \ t \in (Lausanne, Montreux, Cully, ...)
+$$
+
+**3) Employees start/finish work at different times**
+
+Three different employee classes are considered with the help of a distribution:
+
+1. Starting at 7h and finishing at 16h (20%)
+2. Starting at 8h and finishing at 17h (60%)
+3. Starting at 9h and finishing at 18h (20%)
+
+Accordingly, there will not only be one set of employees (V), but three different ones (V1, V2, and V3).
+
+**4) Carsharing**
+
+Instead of shuttles, some employees could take their own car and pick up their colleagues in the morning, and drop them off in the evening. Then, the center point 0 is no longer the company, but the points are the locations of the n people sharing their cars. 
+
+**5) Include in the optimization the capacity of the shuttles
+
+Indeed, including this parameter could impact the size of the shuttle that the company has to invest in. Therefore, a nice extension of this project would take into account the maximal number of employees in every shuttle. 
+
+**6) Compare our results with existing softwares for routes optimization
 
 - [https://www.motiontools.com/last-mile-delivery-stack?utm_feeditemid=&utm_device=c&utm_term=optimo route&utm_source=google&utm_medium=ppc&utm_campaign=&hsa_cam=18822924127&hsa_grp=141602889245&hsa_mt=b&hsa_src=g&hsa_ad=633048540873&hsa_acc={536-108-5031}&hsa_net=adwords&hsa_kw=optimo route&hsa_tgt=kwd-807794010618&hsa_ver=3&gclid=EAIaIQobChMI3qHF6PXT-wIV2PZRCh1HygAcEAAYASAAEgL5i_D_BwE](https://www.motiontools.com/last-mile-delivery-stack?utm_feeditemid=&utm_device=c&utm_term=optimo%20route&utm_source=google&utm_medium=ppc&utm_campaign=&hsa_cam=18822924127&hsa_grp=141602889245&hsa_mt=b&hsa_src=g&hsa_ad=633048540873&hsa_acc=%7B536-108-5031%7D&hsa_net=adwords&hsa_kw=optimo%20route&hsa_tgt=kwd-807794010618&hsa_ver=3&gclid=EAIaIQobChMI3qHF6PXT-wIV2PZRCh1HygAcEAAYASAAEgL5i_D_BwE) (for shuttles)
 - [https://optimoroute.com/what-is-route-optimization/](https://optimoroute.com/what-is-route-optimization/) (for last mile delivery → More about bikes)
