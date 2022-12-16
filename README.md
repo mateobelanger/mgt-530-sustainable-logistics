@@ -50,6 +50,14 @@ Once the cost matrices are generated, the second step is to apply the Vehicle Ro
 
 ## Extensions
 
+### List of existing softwares for routes optimizations: 
+
+
+- [https://www.motiontools.com/last-mile-delivery-stack?utm_feeditemid=&utm_device=c&utm_term=optimo route&utm_source=google&utm_medium=ppc&utm_campaign=&hsa_cam=18822924127&hsa_grp=141602889245&hsa_mt=b&hsa_src=g&hsa_ad=633048540873&hsa_acc={536-108-5031}&hsa_net=adwords&hsa_kw=optimo route&hsa_tgt=kwd-807794010618&hsa_ver=3&gclid=EAIaIQobChMI3qHF6PXT-wIV2PZRCh1HygAcEAAYASAAEgL5i_D_BwE](https://www.motiontools.com/last-mile-delivery-stack?utm_feeditemid=&utm_device=c&utm_term=optimo%20route&utm_source=google&utm_medium=ppc&utm_campaign=&hsa_cam=18822924127&hsa_grp=141602889245&hsa_mt=b&hsa_src=g&hsa_ad=633048540873&hsa_acc=%7B536-108-5031%7D&hsa_net=adwords&hsa_kw=optimo%20route&hsa_tgt=kwd-807794010618&hsa_ver=3&gclid=EAIaIQobChMI3qHF6PXT-wIV2PZRCh1HygAcEAAYASAAEgL5i_D_BwE) (for shuttles)
+- [https://optimoroute.com/what-is-route-optimization/](https://optimoroute.com/what-is-route-optimization/) (for last mile delivery → More about bikes)
+- [https://www.routexl.com/](https://www.routexl.com/) (what we do, free of use)
+- [https://planner.myrouteonline.com/route-planner/](https://planner.myrouteonline.com/route-planner/) (what we do, free of use, and neat)
+- [https://www.verizonconnect.com/ca/solutions/route-planning-software/](https://www.verizonconnect.com/ca/solutions/route-planning-software/)
 
 ## References
 
