@@ -79,3 +79,7 @@ Once the travel time and distance matrices are generated, the final step is to a
 [4]      O. fédéral de la statistique, ‘Transports publics’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/querschnittsthemen/oeffentlicher-verkehr.html (accessed Nov. 28, 2022).
 
 [5]      O. fédéral de la statistique, ‘Pendularité’. https://www.bfs.admin.ch/bfs/fr/home/statistiken/mobilitaet-verkehr/personenverkehr/pendlermobilitaet.html (accessed Nov. 28, 2022).
+
+[6]      TCS, ‘Frais kilométriques’ https://www.tcs.ch/mam/Digital-Media/PDF/Booklets/frais-kilometriques.pdf (accessed Dec. 16, 2022)
+
+[7]      Our Wolrd in Data, 'Which form of transport has the smallest carbon footprint?' https://ourworldindata.org/travel-carbon-footprint (accessed Dec. 16, 2022)
