@@ -3,9 +3,10 @@ EPFL - Digitalization &amp; sustainable logistics
 
 ### Authors: Mathieu Bélanger, Yanis Cuche, Louis Delessert, Mia Frey, Sybille Roemer, Nicolas Wille
 
-# Report
+Insert here table of contents
 
 ## Introduction
+
 
 ## Description of the problem
 
@@ -18,4 +19,22 @@ The first step consists of getting the data. To start, one should generate rando
 Once the random locations of the employees are determined, the next step consists of estimating the cost matrix of going from the location of one employee to another (including location 0 of the company). Here, there are two different costs that can be computed: The first is the simplest one, consisting of the euclidian distance between two locations. The second is more complex but also more accurate. It consists of using the Google Maps API to enter two locations, and get the distance or time of going from one location to the other (i) by car, (ii) using public transportation, and (iii) by bike or foot. 
 
 Once the cost matrices are generated, the second step is to apply the Vehicle Routing Problem. The challenge is to schedule each shuttle’s route while limiting overall costs. The problem aims to minimise the total costs and then the CO2 emissions. At the end, each employee must be assigned a shuttle (as presented in the Figure below).
+
+
+## General VRP Mathematical Formulation
+
+
+## Methodology
+
+
+## Results & Analysis
+
+
+## Conclusion
+
+
+## Extensions
+
+
+## Sources
 
